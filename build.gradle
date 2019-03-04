@@ -5,7 +5,9 @@
  * For more details take a look at the Java Quickstart chapter in the Gradle
  * User Manual available at https://docs.gradle.org/5.2.1/userguide/tutorial_java_projects.html
  */
-
+/*
+ * Author: Avik Mazumder
+ */
 plugins {
     // Apply the java plugin to add support for Java
     id 'war'
