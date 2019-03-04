@@ -8,12 +8,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -B -DskipTests clean package'
+                sh 'gradle clean war'
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                sh 'gradle test'
             }
             post {
                 always {
